@@ -1,0 +1,37 @@
+
+.brujo{
+    padding-left: 700px;
+    display: block;
+    font-size: 40px;
+   
+    
+}
+.micotexto{
+    padding-left: 200px;
+    padding-right: 200px;
+     color: #5a8154;
+    display: block;
+    font-size: 30px;
+
+}
+.micotexto:hover{
+    color: black;
+}
+.micotexto::after{
+    content: "Imagen de El mico brujo";
+    color: blue;
+}
+.micoimg{
+    padding-left: 600px;
+    height: 600px;
+    width: 600PX;
+    
+}
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+}

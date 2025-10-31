@@ -1,0 +1,246 @@
+
+body{
+     background-color: #230504;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+background-size: cover;
+   
+}
+.leyenda1{
+position: absolute;
+top: 400px;
+font-size: 110px;
+left: 100px;
+animation: deslizar 2s ease-out;
+}
+.leyenda1:hover{
+  color: #f0f8ff;
+}
+
+@keyframes deslizar{
+  from{left: -100px; opacity: 0;}
+  to{left: 100px; opacity: 1;}
+}
+
+
+
+
+
+.contenedor .sombreron{
+
+    position: absolute;
+    top: 1140px;
+  width: 1922px;
+  height: 1600px;
+  display: block;
+
+
+}
+
+.leyenda2{
+    position: absolute;
+    color: #f0f8ff;
+    top: 1250px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;
+}
+
+.leyenda2:hover{
+  color: rgb(128, 128, 128);
+}
+
+
+
+@keyframes deslizar{
+  from{left: -100px; opacity: 0;}
+  to{left: 100px; opacity: 1;}
+}
+
+.link{
+  font-size: 40px;
+  background-image: url("https://tse2.mm.bing.net/th/id/OIP.dK57UoTQBBY03dxsE1UiOgHaF7?rs=1&pid=ImgDetMain&o=7&rm=3");
+  position: absolute;
+  left: 40px;
+  color: brown;
+}
+.contenedor .icono{
+  position: absolute;
+  background-size: 20px;
+  left: 20px;
+  width: 100px;
+  top: 20px;
+  border-radius: 50px;
+
+ 
+
+
+}
+
+.contenedor .cadejos{
+   position: absolute;
+    top: 2800px;
+  width: 1922px;
+  height: 1100px;
+ 
+}
+
+
+
+.leyenda3{
+    position: absolute;
+    color: #f0f8ff;
+    top: 2950px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda3:hover{
+  color: rgb(255, 0, 0);
+}
+
+.contenedor .siguanaba{
+  position: absolute;
+    top: 3970px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda4{
+    position: absolute;
+    color: #f0f8ff;
+    top: 4100px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda4:hover{
+  color: rgb(43, 230, 255);
+}
+
+
+.contenedor .duende{
+  position: absolute;
+    top: 5130px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda5{
+    position: absolute;
+    color: #f0f8ff;
+    top: 5200px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda5:hover{
+  color: #15d400;
+}
+
+
+.contenedor .Elcallejon{
+  position: absolute;
+    top: 6300px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda6{
+    position: absolute;
+    color: #000000;
+    top: 6301px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda6:hover{
+  color: #ff9900;
+
+}
+
+.contenedor .Elarbol{
+  position: absolute;
+    top: 7460px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda7{
+    position: absolute;
+    color: #000000;
+    top: 7601px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda7:hover{
+  color: #5d5d5d;
+
+} 
+
+
+.contenedor .Elcabrero{
+  position: absolute;
+    top: 8627px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda8{
+    position: absolute;
+    color: #000000;
+    top: 8610px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda8:hover{
+  color: #ffffff;
+
+} 
+
+
+
+.contenedor .Lamujer{
+  position: absolute;
+    top: 9787px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda9{
+    position: absolute;
+    color: #a29999;
+    top: 9810px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda9:hover{
+  color: #ffffff;
+
+} 
+
+
+.contenedor .Elpayaso{
+  position: absolute;
+    top: 10940px;
+  width: 1922px;
+  height: 1100px;
+}
+.leyenda10{
+    position: absolute;
+    color: #ba9a9a;
+    top: 10970px;
+    left: 100px;
+    font-size: 90px;
+    margin: 20px;
+    animation: deslizar 2s ease-out;  
+}
+.leyenda10:hover{
+  color: #0033cc;
+
+} 

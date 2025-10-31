@@ -1,0 +1,79 @@
+.leyenda1{
+font-size: 60px;
+padding-left: 600px;
+}
+.llorona{
+    font-size: 30px;
+    color: #5a8154;
+    display: block;
+    padding-left: 300px;
+    padding-right: 200px;
+
+}
+.llorona:hover{
+    color: #000000;
+
+}
+.llorona::after{
+    content:"    Imagen de la llorona";
+    color: #1100ff;
+   
+}
+.contenedor{
+     text-align: center;
+     
+}
+
+.contenedor .imagen {
+width: 1000px;
+height: 800px;
+
+
+}
+
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+
+}   
+
+.leyenda2{
+    font-size: 60px;
+    padding-left: 600px;
+}
+
+.textocaracter{
+    position: absolute;
+    top: 120vh;
+    font-size: 60px;
+}
+
+.contenedor1{
+    font-size: 20px;
+        font-weight: normal;
+        position: absolute;
+        top: 1290px;
+        color: #131313;
+
+}
+.textolargo{
+    text-align: center;
+    padding-right: 900px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.contenedor .img{
+    position: absolute;
+  top: 1750px;
+  left: 999px;
+  width: 800px;
+}

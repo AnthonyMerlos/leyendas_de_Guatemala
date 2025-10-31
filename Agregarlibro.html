@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar una leyenda</title>
+    <link rel="stylesheet" href="agregarleyenda.css">
+</head>
+<body>
+
+<a href="http://127.0.0.1:5500/Leyendas_de_%20Guatemala.html">Regresar al menu</a>
+    
+
+<p class="muestra">Agregar:</p>
+
+<div class="escribe">
+<input class="escribe1" type="text" id="leyenda" placeholder="Agrega una leyenda">
+<button class="añadir" onclick="agregarleyenda()">Añadir</button>
+</div>
+
+
+<div class="ListaLyendas">
+    <h3>Leyendas Añadidas</h3>
+    <ol id="Leyendas"></ol>
+    
+</div>
+
+
+<script>
+const lista = document.getElementById("Leyendas");
+
+
+function agregarleyenda() {
+    const leyenda = document.getElementById("leyenda").value.trim();
+    if (!leyenda) {
+        alert("Por favor, añada una leyenda.");
+        return;
+    }
+
+    const li = document.createElement("li");
+    li.textContent = leyenda;
+
+    
+
+    const btnEliminar = document.createElement("button");
+    btnEliminar.textContent = "Eliminar";
+    btnEliminar.style.marginLeft = "10px";
+    btnEliminar.onclick = function() { eliminarLeyenda(li, leyenda); };
+
+    li.appendChild(btnEliminar);
+    lista.appendChild(li);
+
+    
+    const guardadas = JSON.parse(localStorage.getItem("leyendas")) || [];
+    guardadas.push(leyenda);
+    localStorage.setItem("leyendas", JSON.stringify(guardadas));
+
+    document.getElementById("leyenda").value = "";
+}
+
+
+function eliminarLeyenda(li, texto) {
+    lista.removeChild(li);
+
+    let guardadas = JSON.parse(localStorage.getItem("leyendas")) || [];
+    guardadas = guardadas.filter(item => item !== texto);
+    localStorage.setItem("leyendas", JSON.stringify(guardadas));
+}
+
+
+window.onload = function() {
+    const guardadas = JSON.parse(localStorage.getItem("leyendas")) || [];
+    guardadas.forEach(leyenda => {
+        const li = document.createElement("li");
+        li.textContent = leyenda;
+
+        
+        const btnEliminar = document.createElement("button");
+        btnEliminar.textContent = "Eliminar";
+        btnEliminar.style.marginLeft = "10px";
+        btnEliminar.onclick = function() { eliminarLeyenda(li, leyenda); };
+
+        li.appendChild(btnEliminar);
+        lista.appendChild(li);
+    });
+};
+
+</script>
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leyendas de Guatemala</title>
+    <link rel="stylesheet" href="move.css">
+      <link rel="icon" href="https://tse2.mm.bing.net/th/id/OIP.m7_8UrM4xh7Ps3K9HCOnmAHaIU?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" type="icono de leyendas">
+      
+  </head>
+
+<body>
+
+  
+
+<div id="p" style="
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;                                                         
+ background-image: url(https://tse4.mm.bing.net/th/id/OIP.0DxcmBqNgPY-zAgpXBtCuQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3) ; background-color: #230504;
+ display:flex;
+ justify-content:center;
+ align-items:center">
+    <div style="width:100px;
+    height:8px;
+    background:#444"><div id="b" style="width:0;height:100%;background:rgb(35, 20, 242)">
+    </div></div>
+    <img src="" alt="">
+</div>
+
+<script>
+let w=0, i= setInterval(()=>{document.getElementById('b').style.width=++w+'%';if(w==100){clearInterval(i);document.getElementById('p').style.display='none';document.getElementById('c').style.display='block'}},30);
+</script>
+
+
+
+     <div class="parrafo">
+   Leyendas de Guatemala
+   </div>
+
+       <li class="menu">MENU</li>
+  
+
+       <div class="boton1">
+      <a href="http://127.0.0.1:5500/ver_lista.html"><button id="lista">Ver lista</button></a>
+ </div>
+  
+
+      <div class="boton2">
+      <a href="http://127.0.0.1:5500/Reconocidas.html"><button id="Reconocidas">Reconocidas</button></a>
+
+      </div>
+       
+
+
+ <div class="boton3">
+      <a href="http://127.0.0.1:5500/Agregarlibro.html"><button id="añadir">Añadir</button></a>
+       </div>
+     
+
+        </div>
+        <div class="boton4">
+      <button onclick="salir()" id="salir">Salir</button> 
+      <script>
+        function salir(){
+          if ( confirm("¿Seguro que deseas salir de la página?")){
+            window.location.href = "https://www.google.com";
+            
+          }
+        }
+
+          </script>
+</div>
+
+
+  
+
+      
+
+</body>
+</html>

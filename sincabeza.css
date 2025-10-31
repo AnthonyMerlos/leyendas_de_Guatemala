@@ -1,0 +1,34 @@
+body{
+      background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+}
+ 
+.cabeza{
+font-size: 60px;
+padding-left: 600px;
+}
+.textocabeza{
+    font-size: 30px;
+    color: #5a8154;
+    display: block;
+    padding-left: 300px;
+    padding-right: 200px;
+
+}
+.textocabeza:hover{
+    color: #000000;
+
+}
+.textocabeza::after{
+    content:"   La misa del cura sin cabeza";
+    color: blue;
+   
+}
+
+.cabezaimg{
+    padding-left: 850px
+}

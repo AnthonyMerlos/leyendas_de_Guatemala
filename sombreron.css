@@ -1,0 +1,64 @@
+
+body{
+     background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+}
+
+.leyenda2{
+    font-size: 60px;
+    padding-left: 600px;
+}
+
+.sombreron{
+    font-size: 30px;
+    display: block;
+    padding-right: 200px;
+    padding-left: 300px;
+      color: #5a8154;
+}
+.sombreron:hover{
+    color: #000000;
+}
+.sombreron::after{
+    content: "Imagen del sombreron";
+    color: #372929;
+
+}
+.imagen2 {
+    
+text-align: center;
+  
+}
+.imagen2 .imagenxd{
+   width: 800px;
+   height: 500px;
+}
+
+
+.textocaracter{
+    position: absolute;
+    top: 78vh;
+    font-size: 60px;
+}
+
+.contenedor1{
+    font-size: 20px;
+        font-weight: normal;
+        position: absolute;
+        top: 900px;
+        color: #131313;
+
+}
+
+.textolargo{
+    text-align: center;
+    padding-right: 900px;
+    background-repeat: no-repeat;
+
+
+
+}

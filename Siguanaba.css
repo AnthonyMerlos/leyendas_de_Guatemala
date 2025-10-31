@@ -1,0 +1,38 @@
+body{
+background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+}
+
+.Siguanaba{
+     font-size: 60px;
+     padding-left: 700px;
+
+}
+.textoSiguanaba{
+    font-size: 30px;
+    display: block;
+    color: #5a8154;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+.textoSiguanaba:hover{
+    color: black;
+}
+.textoSiguanaba::after{
+    content: "Imagen de la siguanaba";
+    color: blue;
+}
+
+.img1{
+    text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+        padding-left: 600px;
+        height: 500px;
+        width: 1000px;
+}
+

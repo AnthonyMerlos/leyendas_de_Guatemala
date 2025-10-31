@@ -1,0 +1,179 @@
+.parrafo{
+    color: #c01d01;
+    animation: movimiento 20s linear infinite;
+    font-size: 100px;
+    padding-bottom: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: movimiento 10s linear infinite;
+ 
+   
+}
+
+@keyframes movimiento {
+0%{
+    transform: translateX(-130%);   
+}
+100%{
+    transform: translateX(100%);
+}
+}
+body{
+    background-color: #c4ecdf;
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.TYRr6RwBWJfEPytfG3EI_QHaFj?rs=1&pid=ImgDetMain&o=7&rm=3");
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+ height: 100vh;  
+ width: 100vw;
+           
+}
+
+hr{
+    
+}
+
+
+.boton1{
+   display: flex;
+   width: 200px;
+   border-radius: 10px;
+   padding-left: 800px;
+  
+  
+}
+.boton1:hover{
+    color: #c01d01;
+    
+}
+
+#lista{
+    background-color: #ffffff;
+    color: #0d00c9;
+    border-radius: 50px;
+    font-size: 40px;
+
+}
+#lista:hover{
+    background-color: #1fc206;
+    
+}
+
+
+
+.boton2{
+     display: flex;
+    padding-left: 759px;
+    border-radius: 50px;
+padding-top: 10px;
+}
+
+#Reconocidas{
+background-color: #f3f3f3;
+color: #0d00c9;
+border-radius: 50px;
+    font-size: 40px;
+
+}
+#Reconocidas:hover{
+    background-color: aqua;
+     
+ 
+} 
+
+.boton3{
+  display: flex;
+  padding-left: 820px;
+  padding-top: 10px;
+  padding-top: 10px;
+  
+}
+
+
+
+#añadir{
+ font-size: 40px;
+border-radius: 20px;
+color: #0d00c9;
+
+}
+
+
+#añadir:hover{
+background-color: #7876fa;
+
+}
+
+.boton4{
+    display: flex;
+    padding-left: 839px;
+    padding-top: 10px;
+    
+
+
+}
+#salir{
+    font-size: 40px;
+    border-radius: 50px;
+    color: #0d00c9;
+
+}
+
+#salir:hover{
+    background-color: #00d471;
+}
+
+.menu{
+    font-size: 60px;
+    padding-left: 790px;
+    color: #0e46ff;
+}
+
+
+
+.leyenda2{
+    font-size: 60px;
+    padding-left: 600px;
+    
+}
+.p .sombreron{
+    padding-left: 300px;
+    padding-right: 300px;
+   font-size: 30px;
+
+}
+
+.lista{
+       
+    font-size: 40px;
+    left: 20px;
+}
+
+.lista .ver_lista {
+     position: absolute;
+font-weight: normal;
+left: 22px;
+
+
+
+}
+.link{
+    font-size: 30px;
+}
+
+#p{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     height: 100vh;  
+     width: 100vw;
+ 
+
+}
+
+.cargando{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+
+}

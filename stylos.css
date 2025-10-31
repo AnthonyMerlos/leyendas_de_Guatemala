@@ -1,0 +1,132 @@
+p {
+
+    font-size: 24px;
+    color: #00f068;
+    background-color: #053bb9;
+    margin: 50px;
+    margin-top: 50px;
+
+}
+.filas {
+
+    background-color: #0000ff;
+    margin-bottom: 10px;
+    color: #a9a9a9;
+}
+.body {
+align-items: center;
+background-color: #ff8c00;
+color: #fffaf0;
+font-size: 38px;
+}
+.buttom:hover{
+    background-color: #0000ff;
+    color: #00f068;
+    border: 10px;
+    border-radius: 100%;
+}
+.Nombre{
+  
+    color: #00ffff;
+    padding-left: 600px;
+}
+.Nombre{
+    height: 40px;
+    
+}
+
+.Apellido {
+
+    color: #00f068;
+     padding-left: 600px;
+}
+.Edad {
+
+    color: #f00000;
+     padding-left: 600px;
+}
+
+
+.Correo {
+color: #ffd900;
+ padding-left: 600px;
+}
+
+.Direccion {
+    color: #6b8e23;
+     padding-left: 600px;
+}
+
+.Lugar{
+color: #cd853f;
+ padding-left: 600px;
+
+}
+ #encabezados{
+    color: black;
+    background-color: #00f068;
+      padding-left: 400px;
+   
+}
+
+#enlace1{
+
+    color:   red;
+    background-color: black;
+    padding-left: 500px;
+    
+}
+#tablas{
+background-color: red;
+padding-left: 500px;
+
+}
+#tabla2{
+
+color: #070abd;
+
+}
+#Name{
+color: #ffffff  ;
+background-color: #000000;
+
+}
+#Apellido{
+    color: #ffffff;
+    background-color: #000000;
+  
+}
+body{
+    background-color: #d8d8f9;
+}
+.registro{
+    color: #006064;
+    padding-left: 500px;
+}
+.parrafo{
+    color: #0000ff;
+    background-color: #fffaf0;
+    padding-left: 500px;
+}
+.fila{
+    background-color: cadetblue;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.celda{
+    color: #101460;
+    background-color: #6495ed;
+    padding-left: 400px;
+}
+.funcion{
+    color: #07bdae;
+    background-color: #3b0a0a;
+    padding-left: 400px;
+}
+
+.clic {
+    color: #00f068;
+    background-color: #000000;
+}

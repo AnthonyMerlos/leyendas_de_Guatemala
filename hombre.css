@@ -1,0 +1,34 @@
+.hombre{
+font-size: 60px;
+padding-left: 600px;
+}
+.textohombre{
+    font-size: 30px;
+    color: #5a8154;
+    display: block;
+    padding-left: 300px;
+    padding-right: 200px;
+
+}
+.textohombre:hover{
+    color: #000000;
+
+}
+.textohombre::after{
+    content:"    Imagen de la llorona";
+    color: #1100ff;
+}
+
+body{
+     background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?semt=ais_hybrid&w=740");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+}
+
+.imagen10{
+    padding-left: 600px;
+    width: 800px;
+     
+}
